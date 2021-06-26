@@ -1,0 +1,78 @@
+/* global stylesles */
+*{
+    padding:0;;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-size: 10px;
+}
+body{
+    background-color: #FFFDF8;
+}
+/* navigation style */
+header{
+    border-bottom: 1px solid;
+}
+.logo{
+    width:35%;
+    padding:1%
+}
+
+.navbar{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    align-items:center;
+}
+
+.nav-items{
+    display:flex;
+    justify-content:space-around;
+    list-style-type: none;
+    padding: 1%;
+}
+/*Skills Style*/
+#work{
+    padding: 20rem 0 10 rem 0;
+}
+#work .all-items{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#work .all-items .item{
+    padding: 1 rem;
+    inline-size: 500px;
+}
+#work .work1{
+    font-size: 3rem;
+}
+#work .all-items .item:nth-child(1){
+    border: 1px solid;
+    padding: 1vh;
+}
+#work .all-items .item:nth-child(2){
+    border: 1px solid;
+    padding: 1vh;
+}
+#work .all-items .item:nth-child(3){
+    border: 1px solid;
+    padding: 1vh;
+}
+
+
+/*footer*/
+.footerbar{
+    border-top: 1px solid;
+    display:grid;
+    align-items:center;
+    padding-top: 1%;
+}
+
+.footeritems{
+    display:flex;
+    justify-content:space-around;
+    list-style-type: none;
+}
